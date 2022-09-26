@@ -1,7 +1,6 @@
 import hashlib
 
 # Hashing plain text, here "Cohealth" is the plain text
-
 print(hashlib.sha224("Cohealth".encode()).hexdigest())
 
 # Same as previous, but with salting.
@@ -23,7 +22,6 @@ with open('top-passwords.txt') as f:
         with open('known-salts.txt') as foo:
             for salt in foo.readlines():
                 salt = salt.replace("\n", "")
-                psaltedLine = salt + line 
-                AsaltedLine = line + salt
-                if(hashit(psaltedLine) == hash or hashit(AsaltedLine) == hash):
+                psaltedLine = salt + line
+                if(hashit(psaltedLine) == hash ):
                     print(line)
