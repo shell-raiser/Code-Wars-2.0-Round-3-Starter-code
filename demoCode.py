@@ -22,6 +22,6 @@ with open('top-passwords.txt') as f:
         with open('known-salts.txt') as foo:
             for salt in foo.readlines():
                 salt = salt.replace("\n", "")
-                psaltedLine = salt + line
+                psaltedLine =  line + salt
                 if(hashit(psaltedLine) == hash ):
                     print(line)
