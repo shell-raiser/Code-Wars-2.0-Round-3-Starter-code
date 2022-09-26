@@ -2,7 +2,11 @@
 Starter code for Code Wars 2.0 Round 3, Decipher the Code
 
     There are a total of 4 salts to be added to the Plain-text before hashing. The Position of salts are below in the code block(same as this). Answer the question to decrypt the position and find the position.
+    The salts need to be added in the same order as hints.
 
+---
+## The hash
+        343cfcf0df92d5c8f19e24b3ac4a70516dc23efa59650f453c028c9b
 ---
 ### Hint 1
 Substitute the Alphabets (It's Simple, for eg A->E, B -> J, etc.)
@@ -20,17 +24,17 @@ From here, the salt postions are [encrypted](https://en.wikipedia.org/wiki/Vigen
 
 ---
 ### Hint 2
-- The Encryption Standard written by RSA, which competed with Rijndael to become AES.
+- The Encryption Standard written by IBM, which competed with Rijndael to become AES.
 
-        SNV
+        fhvltiivbojafiff
 ---
 ### Hint 3
 - An Algorithm discovered in the 90s, which not only proves its new computing strategy, but also broke public-key cryptography schemes which run the internet today.
 
-        SNV
+        rlfflo
 
 ---
 ### Hint 4
 - Nick name of the exploit which compromised windows systems, where the user password’s hash and its key was stored in the memory. This was used heavily in the initial years of international ransomware attacks.
 
-        SNV
+        xieb
