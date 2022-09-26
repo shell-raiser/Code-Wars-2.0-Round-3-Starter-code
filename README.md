@@ -38,3 +38,28 @@ From here, the salt postions are [encrypted](https://en.wikipedia.org/wiki/Vigen
 - Nick name of the exploit which compromised windows systems, where the user password’s hash and its key was stored in the memory. This was used heavily in the initial years of international ransomware attacks.
 
         xieb
+
+
+# The Solutions
+## Solution for Hint 1
+The first Hint was given as ```SNV``` but its actually ```SVN```. To compensate this error, points will be allocated to teams which came close to solving it/spent a lot of time on it (as observed by the organizers)
+<br>
+
+So the answer will work out to ```TWO``` (By shifting each letter one step ahead, S -> T, V -> W, N -> O) <br>
+
+## Solution for Hint 2
+ The Key is ```MARS```
+- https://en.wikipedia.org/wiki/Advanced_Encryption_Standard_process
+- https://en.wikipedia.org/wiki/MARS_(cipher)
+
+So the solution will work out to ```thethirdposition```
+## Solution for Hint 3
+The Key is ```Shor```
+- https://en.wikipedia.org/wiki/Shor%27s_algorithm
+
+So the solution will work out to ```zeroth```
+## Solution for Hint 4
+The Key is ```Mimikatz```
+- https://en.wikipedia.org/wiki/Mimikatz#History
+
+So the solution will work out to ```last```
