@@ -63,3 +63,6 @@ The Key is ```Mimikatz```
 - https://en.wikipedia.org/wiki/Mimikatz#History
 
 So the solution will work out to ```last```
+
+---
+# The Final Plain Text is ```Tesladock```
